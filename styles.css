@@ -31,13 +31,14 @@ button {
 
 @media (max-width: 500px) {
   #busqueda {
-    width: 80%;
+    width: auto;
+    max-width: 80%;
   }
 
   #buscar {
     width: auto;
-    margin-top: 0;
-    margin-left: 10px;
+    margin-top: 5px;
+    /* margin-left: 10px; */
   }
 
 }
