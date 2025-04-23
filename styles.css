@@ -30,6 +30,10 @@ button {
 }
 
 @media (max-width: 500px) {
+  body {
+    padding: 10px;
+  }
+
   #busqueda {
     width: 85%;
   }
@@ -39,6 +43,11 @@ button {
     margin-top: 5px;
   }
 
+  .cancion {
+    max-width: 95%;
+    padding: 5px;
+    gap: 10px;
+  }
 }
 
 #resultados {
