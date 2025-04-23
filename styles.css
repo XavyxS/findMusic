@@ -10,6 +10,20 @@ button {
   font-size: 1rem;
 }
 
+#buscar {
+  padding: 10px 16px;
+  font-size: 16px;
+  background-color: #007bff; /* azul tipo Bootstrap */
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+  width: 100%; /* para móviles */
+  max-width: 150px;
+  box-sizing: border-box;
+}
+
 #busqueda {
   width: 100%;
   max-width: 400px;
@@ -17,8 +31,15 @@ button {
 
 @media (max-width: 500px) {
   #busqueda {
-    width: 90%;
+    width: 80%;
   }
+
+  #buscar {
+    width: auto;
+    margin-top: 0;
+    margin-left: 10px;
+  }
+
 }
 
 #resultados {
