@@ -11,12 +11,12 @@ button {
 }
 
 #buscar {
-  padding: 10px 16px;
+  /* padding: 10px 16px; */
   font-size: 16px;
   background-color: #007bff; /* azul tipo Bootstrap */
   color: white;
   border: none;
-  border-radius: 4px;
+  border-radius: 5px;
   cursor: pointer;
   margin-top: 10px;
   width: 100%; /* para móviles */
@@ -31,14 +31,12 @@ button {
 
 @media (max-width: 500px) {
   #busqueda {
-    width: auto;
-    max-width: 80%;
+    width: 85%;
   }
 
   #buscar {
     width: auto;
     margin-top: 5px;
-    /* margin-left: 10px; */
   }
 
 }
